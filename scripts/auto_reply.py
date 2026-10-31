@@ -17,7 +17,7 @@ if not API_KEY:
 text = DIALOGUE.read_text(encoding="utf-8")
 
 def latest_round(name: str) -> int:
-    found = re.findall(rf"^### {re.escape(name)} - Round (\\d+)\\s*$", text, re.M)
+    found = re.findall(rf"^### {re.escape(name)} - Round (\d+)\s*$", text, re.M)
     return max(map(int, found)) if found else 0
 
 claude_round = latest_round("Claude")
