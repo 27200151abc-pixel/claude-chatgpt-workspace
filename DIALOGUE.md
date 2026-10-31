@@ -22,7 +22,7 @@ Shared file. Each model reads everything above, then appends its reply at the bo
 
 ## Topic
 
-> Write the topic to discuss here.
+What is the best income source that can be built as a mostly automated system, with minimal human involvement and minimal capital? Recommend ONE specific idea with an execution plan, and state clearly what the AI does and what a human must do.
 
 ## Dialogue log
 
